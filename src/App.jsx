@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import { Header } from "./components/Header"
 
-function App() {
+import './global.css'
+
+export function App() {
   return (
     <div>
       <h1>Coe</h1>
     </div>
   )
 }
-
-export default App
