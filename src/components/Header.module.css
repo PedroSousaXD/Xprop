@@ -1,3 +1,38 @@
-.header {
+.Nav {
   background: #1fe674;
+  border-radius: 1rem;
+}
+img:first-child {
+  padding-right: 40.8rem;
+  height: 4.4rem;
+}
+.NavItens {
+  padding: 1.5rem 11.4rem 1.4rem 13.3rem;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+.NavItens,
+.span {
+  display: inline-flex;
+  gap: 5rem;
+  font-size: 1.6rem;
+  
+}
+.buttonNav {
+  margin-left: 20.1rem;
+  background-color: #262626;
+  border-radius: 1rem;
+  color: #ffffff;
+  padding: 1.4rem 3rem;
+  font-size: 1.4rem;
+}
+.pageOne {
+  background-color: #000000;
+  padding: 3rem 11.6rem 0 11.6rem;
+}
+.content {
+  display: flex;
+  color: white;
 }
