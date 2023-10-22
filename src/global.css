@@ -1,5 +1,20 @@
 :root {
   font-size: 62.5%;
+  --gray-100: #e4e4e4;
+  --gray-300: #cccccc;
+
+  --black-100: #262626;
+  --black-300: #151515;
+  --black-500: #000000;
+
+  --white: #ffffff;
+
+  --blue-300: #0998c5;
+
+  --green-100: #aaf014;
+  --green-300: #4ee391;
+  --green-500: #1fe674;
+  --green-700: #53aa51;
 }
 * {
   margin: 0;
@@ -8,6 +23,19 @@
 }
 
 body {
+  background: var(--black-300);
   -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-weight: 400;
   font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+html,
+body {
+  overflow-x: hidden;
 }

@@ -1,38 +1,41 @@
-.Nav {
-  background: #1fe674;
-  border-radius: 1rem;
+.header {
+  padding-top: 25.8rem;
+  padding-left: 13.3rem;
 }
-img:first-child {
-  padding-right: 40.8rem;
-  height: 4.4rem;
+.xProp span {
+  display: grid;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 4rem;
 }
-.NavItens {
-  padding: 1.5rem 11.4rem 1.4rem 13.3rem;
-  display: flex;
-  align-items: center;
-  font-family: "Roboto", sans-serif;
+.xProp h1 {
   font-weight: 800;
+  font-size: 8rem;
+  color: var(--green-500);
+  padding-bottom: 4.4rem;
 }
-.NavItens,
-.span {
+.markets {
+  padding-top: 1.4rem;
   display: inline-flex;
-  gap: 5rem;
-  font-size: 1.6rem;
-  
+  gap: 4rem;
 }
-.buttonNav {
-  margin-left: 20.1rem;
-  background-color: #262626;
+.markets span {
+  color: var(--green-500);
+  font-weight: 800;
+  font-size: 3.2rem;
+}
+.products {
+  display: grid;
+  width: 17rem;
+}
+.products button {
+  margin-top: 2.1rem;
+  border: none;
   border-radius: 1rem;
-  color: #ffffff;
-  padding: 1.4rem 3rem;
+  padding: 1.3rem 1.8rem;
+  background-image: linear-gradient(90deg, #3fe8ab 0%, #78cdcd 100%);
   font-size: 1.4rem;
-}
-.pageOne {
-  background-color: #000000;
-  padding: 3rem 11.6rem 0 11.6rem;
-}
-.content {
-  display: flex;
-  color: white;
+  font-weight: 600;
+  color: var(--black-500);
+  cursor: pointer;
 }
