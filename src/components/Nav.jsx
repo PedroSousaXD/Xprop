@@ -2,6 +2,7 @@ import styles from './Nav.module.css'
 
 import LogoXprop from "../assets/LogoXprop.svg"
 import Xprop from "../assets/XpropBackground.svg"
+
 export function Nav() {
   return(
       

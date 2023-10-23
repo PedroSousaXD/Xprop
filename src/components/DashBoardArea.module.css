@@ -1,0 +1,66 @@
+.aside {
+  background-image: linear-gradient(
+    180deg,
+    var(--green-700) 0%,
+    var(--black-500) 100%
+  );
+}
+.firstText {
+  padding-top: 5rem;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  font-weight: 800;
+  font-size: 6rem;
+  color: var(--white);
+}
+
+.secondText {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  font-weight: 800;
+  font-size: 3rem;
+  color: var(--white);
+  padding-top: 2.6rem;
+}
+
+.imgDash {
+  display: flex;
+  justify-content: center;
+  height: 102.6rem;
+  padding-top: 2.6rem;
+  padding-bottom: 7rem;
+}
+.Footer {
+  background-image: linear-gradient(
+    90deg,
+    var(--blue-300) 0%,
+    var(--green-300) 100%
+  );
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+.Footer p {
+  color: var(--white);
+  font-weight: 800;
+  font-size: 7rem;
+  padding-top: 7.5rem;
+}
+
+.Footer button {
+  background-image: linear-gradient(
+    90deg,
+    var(--green-300) 0%,
+    var(--blue-300) 100%
+  );
+  font-weight: 900;
+  font-size: 2rem;
+  padding: 2.2rem 5.5rem;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 3.5rem;
+  margin-bottom: 4.3rem;
+  cursor: pointer;
+}

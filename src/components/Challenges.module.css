@@ -1,0 +1,6 @@
+.content {
+  background-color: var(--gray-100);
+}
+.yellow {
+  display: none;
+}
