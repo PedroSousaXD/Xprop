@@ -30,7 +30,7 @@ export function Header() {
             </button>
           </span>
           <span className={styles.products}>
-            Mercados de Ações
+            Mercados de Ações - B3
             <button>
               AÇÕES
             </button>

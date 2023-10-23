@@ -1,0 +1,56 @@
+.footer {
+  padding: 12rem 13rem;
+  display: flex;
+  gap: 13.4rem;
+}
+.LogoFotter {
+  width: 40rem;
+}
+.LogoFotter p {
+  padding-top: 2rem;
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #969696;
+}
+.Links {
+  display: flex;
+  gap: 15rem;
+}
+
+.Links h3 {
+  font-weight: 500;
+  font-size: 2.6rem;
+  color: #f6f6f6;
+  padding-bottom: 2.4rem;
+}
+.LinksFooter {
+  display: grid;
+}
+
+.LinksFooter a {
+  text-decoration: none;
+  color: #b8b8b8;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.Social a {
+  padding-right: 1.3rem;
+  color: #f6f6f6;
+}
+.Social a:hover svg {
+  background: linear-gradient(90deg, #3fe8ab 0%, #78cdcd 100%);
+  color: var(--black-500);
+  border: none;
+  border-radius: 2rem;
+}
+.Final {
+  border-top: 2px solid #383f3e;
+  display: flex;
+  justify-content: center;
+}
+.Final p {
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #969696;
+  padding: 3.2rem 0rem;
+}

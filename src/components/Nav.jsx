@@ -1,15 +1,12 @@
-import styles from './Nav.module.css'
-
 import LogoXprop from "../assets/LogoXprop.svg"
 import Xprop from "../assets/XpropBackground.svg"
+
+import styles from './Nav.module.css'
 
 export function Nav() {
   return(
       
     <header>
-      <div className={styles.xPropImg}>
-        <img src={Xprop} alt="" />
-        </div>
       <div className={styles.navBar}>
         <nav className={styles.nav}>
           <div className={styles.navItens}>

@@ -37,10 +37,3 @@
   border-radius: 1rem;
   cursor: pointer;
 }
-
-.xPropImg {
-  position: absolute;
-  z-index: -1;
-  padding-left: 56.7rem;
-  padding-top: 2.8rem;
-}

@@ -9,10 +9,11 @@
 
   --white: #ffffff;
 
-  --blue-: #3fe8ab;
+  --blue-100: #78cdcd;
   --blue-300: #0998c5;
-
+  
   --green-100: #aaf014;
+  --green-200: #3fe8ab;
   --green-300: #4ee391;
   --green-500: #1fe674;
   --green-700: #53aa51;
@@ -38,5 +39,6 @@ button {
 }
 html,
 body {
+  height: 100%;
   overflow-x: hidden;
 }

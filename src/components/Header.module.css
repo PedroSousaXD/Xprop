@@ -1,6 +1,10 @@
 .header {
   padding-top: 25.8rem;
   padding-left: 13.3rem;
+  padding-bottom: 23.5rem;
+  background-image: url(/src/assets/XpropBackground.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 56.7rem -5.1rem;
 }
 .xProp span {
   display: grid;
@@ -26,7 +30,7 @@
 }
 .products {
   display: grid;
-  width: 17rem;
+  width: 19rem;
 }
 .products button {
   margin-top: 2.1rem;

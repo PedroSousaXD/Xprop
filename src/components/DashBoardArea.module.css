@@ -52,8 +52,8 @@
 .Footer button {
   background-image: linear-gradient(
     90deg,
-    var(--green-300) 0%,
-    var(--blue-300) 100%
+    var(--green-200) 0%,
+    var(--blue-100) 100%
   );
   font-weight: 900;
   font-size: 2rem;

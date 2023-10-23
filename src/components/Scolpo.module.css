@@ -1,0 +1,131 @@
+.content {
+  gap: 6rem;
+  display: flex;
+  padding-top: 13.1rem;
+  padding-bottom: 11.6rem;
+  justify-content: center;
+}
+.abaut {
+  width: 51.3rem;
+  color: var(--white);
+}
+.abaut h3 {
+  font-weight: 900;
+  font-size: 5.8rem;
+  background: -webkit-linear-gradient(360deg, #1ae3bf 0%, #233472 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.abaut p {
+  padding-top: 2.4rem;
+  font-weight: 400;
+  font-size: 2.4rem;
+  align-content: space-between;
+  text-align: justify;
+}
+
+.divider {
+  display: flex;
+  width: 100%;
+  height: 1.2rem;
+  background-image: linear-gradient(270deg, #233478 0%, #17a874 100%);
+}
+
+.Newsletter {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  height: 34.5rem;
+  padding: 0rem 41rem;
+  margin: 13.8rem 0rem;
+}
+.Newsletter h3 {
+  font-weight: 700;
+  font-size: 5.8rem;
+  color: #f6f6f6;
+}
+.Newsletter p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #969696;
+  padding-top: 3rem;
+}
+.form {
+  border: 4px solid #383f3e;
+  border-radius: 1rem;
+  background-color: var(--black-300);
+  margin-top: 7rem;
+  margin-bottom: 17.9rem;
+
+  width: 82rem;
+  display: flex;
+  justify-content: space-between;
+}
+.form button {
+  font-weight: 600;
+  font-size: 1.4rem;
+
+  padding: 2.2rem 5.4rem;
+
+  border-radius: 1rem;
+  border: none;
+
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  margin-right: 4.4rem;
+
+  background-image: linear-gradient(
+    270deg,
+    var(--green-200) 0%,
+    var(--blue-100) 100%
+  );
+}
+.form input {
+  width: 70%;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--black-300);
+  color: #969696;
+  padding-left: 4.4rem;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  outline: 0;
+}
+
+.trader {
+  padding: 6.3rem 34.9rem;
+  background-image: linear-gradient(
+    270deg,
+    var(--green-300) 0%,
+    var(--blue-300) 100%
+  );
+  text-align: center;
+}
+.trader h3 {
+  font-weight: 800;
+  color: #f6f6f6;
+  font-size: 7rem;
+}
+.trader p {
+  font-weight: 400;
+  color: #f6f6f6;
+  font-size: 2.4rem;
+  text-align: center;
+  padding-top: 1.1rem;
+}
+.trader button {
+  margin-top: 1.5rem;
+
+  background: linear-gradient(90deg, #3fe8ab 0%, #78cdcd 100%);
+
+  border: none;
+  border-radius: 1rem;
+
+  font-weight: 900;
+  font-size: 2rem;
+  padding: 2.2rem 5.4rem;
+}
