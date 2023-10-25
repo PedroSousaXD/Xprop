@@ -1,12 +1,12 @@
-import TraderExemple from '../assets/TraderExemple.svg'
+import TraderExample from '../../assets/TraderExample.svg'
 
-import style from './Scolpo.module.css'
+import style from './style.module.css'
 
-export function Scolpo (){
-  return(
+export default function Scolpo (){
+  return (
     <aside>
       <div className={style.content}>
-        <img src={TraderExemple} alt="" />
+        <img src={TraderExample} alt="" />
         <div className={style.abaut}>
           <h3>Quem é a Xprop Trading?</h3>
           <p>A X Prop é uma mesa proprietária criada em 2020, com o objetivo de selecionar traders para operar nosso capital. Os traders podem continuar em suas profissões, operar em home office, ou ainda trabalhar em nossa sede. Nossas exigências para entrar e continuar em nosso time são operar uma quantidade mínima de dias e ter resultados consistentes.</p>
