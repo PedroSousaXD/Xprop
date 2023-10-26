@@ -80,7 +80,7 @@ export default function Challenges (){
 
   const filterAction = [
     {
-      "name": "Prop X sadfasdasd",
+      "name": "Prop X",
       "challenges": [
         {
           "name": "X500"
@@ -103,15 +103,49 @@ export default function Challenges (){
     }
   ]
 
-  const filterForex = [
+  const filterFuture = [
     {
-      "name": "Forex",
+      "name": "Prop Free",
       "challenges": [
         {
-          "name": "X500"
+          "name": "One"
         },
         {
-          "name": "X1000"
+          "name": "Plus"
+        },
+        {
+          "name": "Pro"
+        }
+      ]
+    },
+    {
+      "name": "Prop X",
+      "challenges": [
+        {
+          "name": "One"
+        },
+        {
+          "name": "Plus"
+        },
+        {
+          "name": "Pro"
+        }
+      ]
+    }
+  ]
+
+  const filterForexx = [
+    {
+      "name": "forex",
+      "challenges": [
+        {
+          "name": "40.000 USD"
+        },
+        {
+          "name": "80.000 USD"
+        },
+        {
+          "name": "800.000 USD"
         }
       ]
     }
@@ -139,8 +173,8 @@ export default function Challenges (){
       
       <ul className={styles.typeChallenge}>
         <li onClick={() => handleClickSelectedChallenge(filterAction)}>AÇÕES</li>
-        <li>FUTUROS</li>
-        <li onClick={() => handleClickSelectedChallenge(filterForex)}>FOREX</li>
+        <li onClick={() => handleClickSelectedChallenge(filterFuture)}>FUTUROS</li>
+        <li onClick={() => handleClickSelectedChallenge(filterForexx)}>FOREX</li>
       </ul>
       
       <ul className={styles.filterChallenge}>
