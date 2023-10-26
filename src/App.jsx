@@ -1,9 +1,10 @@
-import { Header } from './components/Header'
-import { XpropContent } from './components/XpropContent'
-import Challenges from './components/Challenges'
-import { DashBoard } from './components/DashBoardArea'
+
+import Header from './components/header'
+import XpropContent from './components/xprop'
+import Challenges from './components/challenges'
+import DashBoard from './components/dasboard'
 import Scolpo from './components/scolpo'
-import { Footer } from './components/Footer'
+import Footer from './components/footer'
 
 import './global.css'
 

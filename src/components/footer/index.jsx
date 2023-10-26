@@ -4,11 +4,11 @@ import {TwitterLogo} from 'phosphor-react'
 import {LinkedinLogo} from 'phosphor-react'
 import {YoutubeLogo} from 'phosphor-react'
 
-import LogoFooter from '../assets/LogoFooter.svg'
+import LogoFooter from '../../assets/LogoFooter.svg'
 
-import style from './Footer.module.css'
+import style from './style.module.css'
 
-export function Footer() {
+export default function Footer() {
   return(
     <footer >
       <div className={style.footer}>

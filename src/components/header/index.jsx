@@ -1,11 +1,11 @@
-import LogoXprop from "../assets/LogoXprop.svg"
-import Xprop from "../assets/XpropBackground.svg"
+import LogoXprop from "../../assets/LogoXprop.svg"
+import Xprop from "../../assets/XpropBackground.svg"
 
 
-import styles from './Header.module.css'
+import styles from './style.module.css'
 
 
-export function Header() {
+export default function Header() {
   return (
     <header>
       <div className={styles.header}>      

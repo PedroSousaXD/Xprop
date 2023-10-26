@@ -1,10 +1,10 @@
-import styles from './XpropContent.module.css'
-import rendaFixaLogo from "../assets/rendaFixaLogo.svg";
-import fundoDeInvestimentoLogo from "../assets/fundoDeInvestimentoLogo.svg";
-import previdenciaPrivadaLogo from "../assets/previdenciaPrivadaLogo.svg";
-import rendaVariavelLogo from "../assets/rendaVariavelLogo.svg";
+import styles from './style.module.css'
+import rendaFixaLogo from "../../assets/rendaFixaLogo.svg";
+import fundoDeInvestimentoLogo from "../../assets/fundoDeInvestimentoLogo.svg";
+import previdenciaPrivadaLogo from "../../assets/previdenciaPrivadaLogo.svg";
+import rendaVariavelLogo from "../../assets/rendaVariavelLogo.svg";
 
-export function XpropContent (){
+export default function XpropContent (){
   return (
     <div className={styles.aside}>
       <aside>
