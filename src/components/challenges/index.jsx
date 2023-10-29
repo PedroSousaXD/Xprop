@@ -3,6 +3,8 @@ import styles from './style.module.css';
 
 import {Check} from 'phosphor-react'
 
+
+
 export default function Challenges() {
  
   const plans = [
@@ -31,7 +33,9 @@ export default function Challenges() {
           "name": "Profit One"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "500",
+          "realValue": "600"
         },
         {
           "name": "Profit Pro"
@@ -943,6 +947,36 @@ export default function Challenges() {
       ]
     }
   ]
+
+  const [fictitiousValue, setFictitiousValue] = useState(null);
+  const [realValue, setRealValue] = useState(null);
+  const [selectedPlatform, setSelectedPlatform] = useState("");
+  const [selectedChallenge, setSelectedChallenge] = useState({});
+  const [selectedChallenges, setSelectedChallenges] = useState([]);
+  const [filtersChallenges, setFiltersChallenges] = useState([]);
+  const [challenges, setChallenges] = useState([]);
+
+  useEffect(() => {
+    if (selectedPlatform && selectedChallenge) {
+      const platformValue = selectedChallenge.platform.find(
+        (platform) => platform.name === selectedPlatform
+      );
+  
+      if (platformValue) {
+        setFictitiousValue(platformValue.fictitiousValue);
+        setRealValue(platformValue.realValue);
+      }
+    }
+  }, [selectedPlatform, selectedChallenge]);
+  const handlePlatformChange = (platform) => {
+    setSelectedPlatform(platform);
+  };
+
+  const handleChallengeSelect = (challenge) => {
+    setSelectedChallenge(challenge);
+    setSelectedPlatform("");
+  };
+
   function iniciarEduzzCheckout() {
     const onScriptLoad = () => {
       const load = () => {
@@ -963,9 +997,6 @@ export default function Challenges() {
     document.head.appendChild(script);
   }
   
-  const [selectedChallenges, setSelectedChallenges] = useState([]);
-  const [filtersChallenges, setFiltersChallenges] = useState([]);
-  const [challenges, setChallenges] = useState([]);
   
   function handleClickFilter(filter) {
     setChallenges(filter.challenges);
@@ -1047,58 +1078,69 @@ export default function Challenges() {
           ))}
         </ul>
       </div>
-        {plans
-            .filter((plan) => selectedChallenges.includes(plan.name))
-            .map((selectedPlan) =>(
-              <div className={styles.highlighted}>
-                {selectedPlan.name === 'X10000' && (
-                  <p>DESAFIO MAIS ADQUIRIDO</p>
-                  )
-                }
-              </div>
-          ))}
-      <div >
+      <div className={styles.challengeHeader}>
+        <h2>Escolha o desafio que melhor adapte ao seu perfil</h2>
+      </div>
+      
           <div className={styles.selectedChallenge}>
             {plans
               .filter((plan) => selectedChallenges.includes(plan.name))
               .map((selectedPlan) => (
               <div
                 key={selectedPlan.name}
-                className={`${styles.challenge} ${
-                selectedPlan.name === "X10000" ? styles.highlightedChallenge : ""
-                }`}
+                className={selectedPlan.name === "X10000" ? styles.highlightedChallenge : ""}
               >
-              
+                <div key={selectedPlan.name} className={styles.highlighted}>
+                {selectedPlan.name === 'X10000' && (
+                  <div>                    
+                    <p>DESAFIO MAIS ADQUIRIDO</p>
+                  </div>
+                  )
+                }
+              </div>
+              <div className={`${styles.challenge}${
+                selectedPlan.name === "X10000" ? styles.highlightedChallenge : ""
+                }`}>              
                 <h2>{selectedPlan.name}</h2>
-                <span>{selectedPlan.description}</span>
+                <span className={styles.descont}>{selectedPlan.description}</span>
 
                 <ul>
                   {selectedPlan.benefits.map((benefit) => (
-                    <li key={benefit.description}><Check 
-                    size={32} 
-                    color='green' 
-                    background-color="red"
-                    border-radius="10rem"/>{benefit.description}</li>
+                    <li key={benefit.description}>
+                      <p>
+                        <Check size="2.4rem" weight="bold" />
+                      </p>
+                      {benefit.description}
+                    </li>
                   ))}
                 </ul>
+                <div className={styles.plataformas}>
+                  <p>Escolha sua plataforma</p>
+                  <select type="text" placeholder="plataforma">
+                    {selectedPlan.platform.map((platform, index) => (
+                      <option key={index} value={platform.name}>
+                        {platform.name}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                
+                <div className={styles.pagamentos}>
+                  <p key={fictitiousValue}>R$ {fictitiousValue}</p>
+                  <span key={realValue}>R$ {realValue}</span>
+                </div>
+                             
+                <span className={styles.repasses}>Repasse {selectedPlan.repasse}</span>
 
-                <select type="text" placeholder="plataforma">
-                  {selectedPlan.platform.map((platform) => (
-                    <option key={platform.name} value={platform.name}>
-                      {platform.name}
-                    </option>
-                  ))}
-                </select>
-
-                <span>Repasse {selectedPlan.repasse}</span>
-
-                <a onClick={iniciarEduzzCheckout} href={selectedPlan.planLink} >ADESÃO AO DESAFIO</a>
+                <a 
+                className={styles.button}
+                onClick={iniciarEduzzCheckout} 
+                href={selectedPlan.planLink} >ADESÃO AO DESAFIO</a>
+                </div>
               </div>
               ))
               .slice(0, 3)
             }
-
-          </div>
       </div>
       
     </div>
