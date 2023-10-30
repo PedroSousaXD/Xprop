@@ -833,11 +833,7 @@ export default function Challenges() {
       "challenges": [
         {
           "name": "X 500K"
-<<<<<<< HEAD
         },
-=======
-        }
->>>>>>> 20db1e7ffe37dd562b889e7da37f828a80ae9b46
       ]
     },
     {
@@ -845,35 +841,12 @@ export default function Challenges() {
       "challenges": [
         {
           "name": "Extended 500K"
-<<<<<<< HEAD
         },
       ]
     }
   ]
 
   const filterFutures = [
-=======
-        }
-      ]
-    }    
-  ]
-
-  const filterFuture = [
-    {
-      "name": "Prop Free",
-      "challenges": [
-        {
-          "name": "One"
-        },
-        {
-          "name": "Plus"
-        },
-        {
-          "name": "Pro"
-        }
-      ]
-    },
->>>>>>> 20db1e7ffe37dd562b889e7da37f828a80ae9b46
     {
       "name": "Prop X",
       "challenges": [
@@ -1066,7 +1039,6 @@ export default function Challenges() {
   return (
     <div className={styles.content}>
       <h1>Escolha seu Desafio</h1>
-<<<<<<< HEAD
       
       <ul className={styles.typeChallenge}>
         <li onClick={() => handleClickSelectedChallenge(filterAction)}>AÇÕES</li>
@@ -1085,8 +1057,6 @@ export default function Challenges() {
           <li key={challenge.name} onClick={() => handleSelectedPlan(challenge)}>{challenge.name}</li>
         ))}
       </ul>
-=======
->>>>>>> 20db1e7ffe37dd562b889e7da37f828a80ae9b46
 
       <div className={styles.typeChallenge}>
       <input
