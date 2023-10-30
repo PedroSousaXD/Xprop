@@ -1,6 +1,7 @@
 :root {
   font-size: 62.5%;
   --gray-100: #e4e4e4;
+  --gray-150: #eaeaea;
   --gray-300: #cccccc;
 
   --black-100: #262626;
@@ -15,6 +16,7 @@
   --green-100: #aaf014;
   --green-200: #3fe8ab;
   --green-300: #4ee391;
+  --green-400: #4de08f;
   --green-500: #1fe674;
   --green-700: #53aa51;
 }

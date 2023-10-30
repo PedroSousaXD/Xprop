@@ -1,8 +1,8 @@
-import style from './DashBoardArea.module.css'
+import style from './style.module.css'
 
-import  imgDash  from '../assets/ImgDashBoard.svg'
+import imgDash from '../../assets/ImgDashBoard.svg'
 
-export function DashBoard(){
+export default function DashBoard(){
   return (
     <header>
       <aside className={style.aside}>
