@@ -30,15 +30,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
           "name": "Profit Plus",
-          "value ": "500",
-          "realValue": "600"
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -66,20 +70,26 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
       "planLink": "http://..."
     },
     {
-      "name": "One",
+      "name": "ONE",
       "description": "Desconto de até 33%",
       "benefits": [
         {
@@ -100,20 +110,26 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
       "planLink": "http://..."
     },
     {
-      "name": "Plus",
+      "name": "PLUS",
       "description": "Desconto de até 33%",
       "benefits": [
         {
@@ -134,20 +150,26 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
       "planLink": "http://..."
     },
     {
-      "name": "Pro",
+      "name": "PRO",
       "description": "Desconto de até 33%",
       "benefits": [
         {
@@ -168,13 +190,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -202,13 +230,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -236,13 +270,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -270,13 +310,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -304,13 +350,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -338,13 +390,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -372,13 +430,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -406,13 +470,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -440,13 +510,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -474,13 +550,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -508,13 +590,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -542,13 +630,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -576,13 +670,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -610,13 +710,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -644,13 +750,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -678,13 +790,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -712,13 +830,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -746,13 +870,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -780,13 +910,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -814,13 +950,19 @@ export default function Challenges() {
       ],
       "platform": [
         {
-          "name": "Profit One"
+          "name": "Profit One",
+          "value ": "100",
+          "realValue": "200"
         },
         {
-          "name": "Profit Plus"
+          "name": "Profit Plus",
+          "value ": "300",
+          "realValue": "400"
         },
         {
-          "name": "Profit Pro"
+          "name": "Profit Pro",
+          "value ": "500",
+          "realValue": "600"
         }
       ],
       "repasse": "81%",
@@ -919,35 +1061,16 @@ export default function Challenges() {
       "name": "Prop Free",
       "challenges": [
         {
-          "name": "X500"
+          "name": "ONE"
         },
         {
-          "name": "X1000"
-        }
-      ]
-    },
-    {
-      "name": "Prop Z",
-      "challenges": [
-        {
-          "name": "X500"
+          "name": "PLUS"
         },
         {
-          "name": "X1000"
+          "name": "PRO"
         }
       ]
-    },
-    {
-      "name": "Prop Farm",
-      "challenges": [
-        {
-          "name": "X500"
-        },
-        {
-          "name": "X1000"
-        }
-      ]
-    }
+    },    
   ]
 
   const filterForex = [
@@ -977,13 +1100,15 @@ export default function Challenges() {
 
   useEffect(() => {
     if (selectedPlatform && selectedChallenge) {
-      const platformValue = selectedChallenge.platform.find(
-        (platform) => platform.name === selectedPlatform
-      );
+      if (selectedChallenge.platform) {
+        const platformValue = selectedChallenge.platform.find(
+          (platform) => platform.name === selectedPlatform
+        );
+      }
   
       if (platformValue) {
-        setFictitiousValue(platformValue.fictitiousValue);
-        setRealValue(platformValue.realValue);
+        setFictitiousValue(platformValue.fictitiousValue || "N/A");
+        setRealValue(platformValue.realValue || "N/A");
       }
     }
   }, [selectedPlatform, selectedChallenge]);
@@ -1015,7 +1140,7 @@ export default function Challenges() {
     document.head.appendChild(script);
   }  
   function handleClickFilter(filter) {
-    setChallenges(filter.challenges);
+    setChallenges(filter.challenges || []);
   }
   function handleSelectedPlan(challenge) {
     if (selectedChallenges.includes(challenge.name)) {
@@ -1034,25 +1159,6 @@ export default function Challenges() {
   return (
     <div className={styles.content}>
       <h1>Escolha seu Desafio</h1>
-      
-      <ul className={styles.typeChallenge}>
-        <li onClick={() => handleClickSelectedChallenge(filterAction)}>AÇÕES</li>
-        <li onClick={() => handleClickSelectedChallenge(filterFutures)}>FUTUROS</li>
-        <li onClick={() => handleClickSelectedChallenge(filterForex)}>FOREX</li>
-      </ul>
-      
-      <ul className={styles.filterChallenge}>
-        {filtersChallenges.map( (filter) => (
-          <li key={filter.name} onClick={() => handleClickFilter(filter)}>{filter.name}</li>
-        ))}
-      </ul>
-      
-      <ul className={styles.challenges}>
-        {challenges.map( (challenge) => (
-          <li key={challenge.name} onClick={() => handleSelectedPlan(challenge)}>{challenge.name}</li>
-        ))}
-      </ul>
-
       <div className={styles.typeChallenge}>
       <input
         type="radio"
@@ -1066,7 +1172,7 @@ export default function Challenges() {
         id='FUTUROS'
         name='fav_language1'
         value="FUTUROS"
-        onClick={() => handleClickSelectedChallenge(filterFuture)}/>
+        onClick={() => handleClickSelectedChallenge(filterFutures)}/>
       <label htmlFor="FUTUROS">FUTUROS</label>
       <input 
         type="radio"
@@ -1148,7 +1254,12 @@ export default function Challenges() {
                 </ul>
                 <div className={styles.plataformas}>
                   <p>Escolha sua plataforma</p>
-                  <select type="text" placeholder="plataforma">
+                  <select 
+                    type="text" 
+                    placeholder="plataforma"
+                    value={selectedPlatform}
+                    onChange={(e) => handlePlatformChange(e.target.value)}
+                  >
                     {selectedPlan.platform.map((platform, index) => (
                       <option key={index} value={platform.name}>
                         {platform.name}
