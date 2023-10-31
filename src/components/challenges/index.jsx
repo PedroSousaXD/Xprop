@@ -971,7 +971,6 @@ export default function Challenges() {
   const handlePlatformChange = (platform) => {
     setSelectedPlatform(platform);
   };
-
   const handleChallengeSelect = (challenge) => {
     setSelectedChallenge(challenge);
     setSelectedPlatform("");
@@ -995,13 +994,10 @@ export default function Challenges() {
     script.src = 'https://cdn.eduzzcdn.com/sun/bridge/bridge.js';
     script.onload = onScriptLoad;
     document.head.appendChild(script);
-  }
-  
-  
+  }  
   function handleClickFilter(filter) {
     setChallenges(filter.challenges);
   }
-
   function handleSelectedPlan(challenge) {
     if (selectedChallenges.includes(challenge.name)) {
       setSelectedChallenges(selectedChallenges.filter((name) => name !== challenge.name));
@@ -1011,7 +1007,6 @@ export default function Challenges() {
       }
     }
   }
-
   function handleClickSelectedChallenge(filter) {
     setFiltersChallenges(filter);
     setChallenges([]);
